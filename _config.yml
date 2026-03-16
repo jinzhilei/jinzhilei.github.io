@@ -1,0 +1,82 @@
+# Site Settings
+title: "Lei Lab | 雷锦志课题组"
+description: "Computational Systems Biology & Mathematical Oncology — Tiangong University"
+url: "https://jinzhilei.github.io"
+baseurl: ""
+
+# Theme
+remote_theme: alshedivat/al-folio
+# If deploying locally: theme: al-folio
+
+# Scholar / Google Scholar
+scholar:
+  last_name: Lei
+  first_name: [Jinzhi, J.]
+
+# Social
+email: jzlei@tiangong.edu.cn
+github_username: jinzhilei
+orcid_id: 0000-0002-2670-6760
+
+# Navigation pages (order matters)
+nav_pages:
+  - about
+  - research
+  - members
+  - publications
+  - news
+
+# Blog / News
+blog_name: "News & Updates"
+blog_description: "Lab news, academic events, and field updates"
+permalink: /news/:year/:month/:day/:title/
+
+# Pagination
+paginate: 10
+paginate_path: /news/page:num/
+
+# Collections
+collections:
+  news:
+    output: true
+    permalink: /news/:path/
+  members:
+    output: true
+    permalink: /members/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: members
+    values:
+      layout: member
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-scholar
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - README.md
+
+# Language
+lang: en
