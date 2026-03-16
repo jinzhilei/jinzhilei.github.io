@@ -43,7 +43,7 @@ Our models are grounded in real experimental data and aim to generate testable p
 
 ### Principal Investigator
 
-**Prof. Jinzhi Lei (雷锦志)** is a Professor and doctoral supervisor at Tiangong University. He received his B.S., M.S., and Ph.D. from Beihang University, followed by postdoctoral training at Tsinghua University. He was a faculty member at Tsinghua University from 2003 to 2019 before joining Tiangong University in 2020. He has published over 90 research articles, authored three monographs on systems biology, and attracted over 17,000 citations (Google Scholar). He serves on the editorial boards of *Mathematical Biosciences and Engineering* and *Mathematics in Applied Sciences and Engineering*, among others.
+**Prof. Jinzhi Lei (雷锦志)** is a Professor, doctoral supervisor, and Distinguished Professor of Tianjin (天津市特聘教授) at Tiangong University. He received his B.S., M.S., and Ph.D. from Beihang University (Applied Mathematics / General Mechanics, 1991–2001), followed by postdoctoral training at Tsinghua University (2001–2003). He was a research faculty member at Tsinghua University's Zhou Peiyuan Center for Applied Mathematics from 2003 to 2019 before joining Tiangong University in 2020. He has published over 90 peer-reviewed research articles, authored five monographs on systems biology, and attracted over 17,000 citations (Google Scholar). He serves on the editorial boards of *Mathematical Biosciences and Engineering* and *Mathematics in Applied Sciences and Engineering*, among others.
 
 → [Full biography](/about/) &nbsp; | &nbsp; [Publications](/publications/) &nbsp; | &nbsp; [Google Scholar](https://scholar.google.com/citations?user=aR34e1gAAAAJ)
 

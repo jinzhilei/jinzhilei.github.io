@@ -83,6 +83,8 @@ Our toolkit spans a wide range of mathematical and computational methods:
 
 Our research is supported by grants from the **National Natural Science Foundation of China (NSFC)**, including:
 
-- Key Project: *Mathematical Theory and Methods for Cancer Drug Resistance and Relapse Dynamics* (2024, ¥1.93M)
-- Major Programme Key Integration Project: *Computational Modelling of Stem Cell Proliferation and Its Application to Cancer Evolution Dynamics* (2018–2019, ¥1.60M)
-- General Programme: *Analysis and Control Strategies for Haematopoietic System Dynamics* (2013–2016, ¥780K)
+- **Key Project** (2024): *Mathematical Theory and Methods for Cancer Drug Resistance and Relapse Dynamics* (¥1.93M)
+- **Major Programme Key Integration Project** (2018–2019): *Computational Modelling of Stem Cell Proliferation and Its Application to Cancer Evolution Dynamics* (¥1.60M)
+- **Major Programme Cultivation Project** (2015–2017): *Reverse Modelling of Adult Stem Cell Regeneration and Differentiation Regulation* (¥700K)
+- **General Programme** (2013–2016): *Analysis and Control Strategies for Haematopoietic System Dynamics* (¥780K)
+- **Young Scientist Fund** (2007–2009): *Mathematical Models of Gene Networks Governing Drosophila Imaginal Disc Development* (¥170K)

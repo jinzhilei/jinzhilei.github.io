@@ -17,7 +17,7 @@ nav_order: 3
       </div>
       <div class="col">
         <h5 class="card-title">Jinzhi Lei (雷锦志)</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Professor · Doctoral Supervisor</h6>
+        <h6 class="card-subtitle mb-2 text-muted">Professor · Doctoral Supervisor · Distinguished Professor of Tianjin</h6>
         <p>
           Professor Lei received his B.S., M.S., and Ph.D. from Beihang University (Applied Mathematics / General Mechanics, 1991–2001),
           completed postdoctoral training at Tsinghua University (2001–2003), and was a research faculty member at
@@ -28,7 +28,13 @@ nav_order: 3
         <p>
           His research focuses on computational systems biology, mathematical oncology, and dynamical systems.
           He has published over 90 peer-reviewed articles (17,000+ citations, Google Scholar)
-          and authored three monographs on systems biology.
+          and authored five monographs / textbooks on systems biology.
+        </p>
+        <p>
+          <strong>Academic service:</strong> Deputy Director, Committee on Mathematical Life Sciences, CSIAM;
+          Executive Committee Member, Committee on Computational Systems Biology, ORS;
+          Editorial Board Member, <em>Mathematical Biosciences and Engineering</em>;
+          Editorial Board Member, <em>Mathematics in Applied Sciences and Engineering</em>.
         </p>
         <p>
           📧 <a href="mailto:jzlei@tiangong.edu.cn">jzlei@tiangong.edu.cn</a> &nbsp;|&nbsp;
