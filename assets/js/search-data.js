@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-publications",
           title: "Publications",
-          description: "A full list of publications from the Lei Lab. For the most up-to-date list, please visit Google Scholar or ORCID.",
+          description: "A full list of publications from the Lei Lab. For the most up-to-date list, please visit Google Scholar or ORCID. ResearcherID: B-3818-2010.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
