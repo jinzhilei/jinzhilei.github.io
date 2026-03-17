@@ -46,7 +46,7 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "A collection of open-source code repositories for mathematical and computational models in biology and medicine.",
+          description: "Open-source code repositories for mathematical and computational models in biology and medicine.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
