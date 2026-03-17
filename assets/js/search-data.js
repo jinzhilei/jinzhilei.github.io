@@ -31,8 +31,8 @@ ninja.data = [{
             window.location.href = "/members/";
           },
         },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
+          title: "Projects",
+          description: "Our research projects span mathematical oncology, stem cell dynamics, epigenetic regulation, infectious disease modelling, and single-cell genomics.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -465,29 +465,29 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-mathematical-oncology-and-cancer-immunotherapy",
+          title: 'Mathematical Oncology and Cancer Immunotherapy',
+          description: "Multi-scale mathematical modeling and optimal control strategies for cancer immunotherapy, covering checkpoint inhibitors, CAR-T cell therapy, and combination treatment design.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-stem-cell-dynamics-and-haematopoietic-system-modelling",
+          title: 'Stem Cell Dynamics and Haematopoietic System Modelling',
+          description: "Multi-scale deterministic and stochastic models of stem cell self-renewal, differentiation, and population dynamics in haematopoietic and epithelial tissues, including the mathematical underpinnings of periodic blood disorders.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-epigenetic-regulation-and-cell-fate-decisions",
+          title: 'Epigenetic Regulation and Cell-Fate Decisions',
+          description: "Mathematical modelling of cell-type transitions, Waddington landscape dynamics, epigenetic inheritance noise, and the role of epigenetic instability in cancer drug resistance.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-infectious-disease-modelling-and-epidemic-dynamics",
+          title: 'Infectious Disease Modelling and Epidemic Dynamics',
+          description: "Mathematical models of COVID-19 transmission at multiple scales — from within-host viral dynamics to population-level spread — informing public health interventions including contact tracing, quarantine strategies, and non-pharmaceutical interventions.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-gene-regulatory-networks-developmental-patterning-and-single-cell-genomics",
+          title: 'Gene Regulatory Networks, Developmental Patterning, and Single-Cell Genomics',
+          description: "Mathematical modelling of gene network dynamics from Drosophila imaginal disc patterning to morphogen gradient robustness; quantitative single-cell RNA sequencing analysis including stemness scoring and AI-driven data generation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
             },},{id: "projects-project-6",
