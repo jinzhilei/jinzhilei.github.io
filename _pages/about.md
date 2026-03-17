@@ -1,34 +1,54 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: >
+  <a href="https://sxkxxy.tiangong.edu.cn/" target="_blank">School of Mathematical Sciences</a> ·
+  <a href="https://www.tiangong.edu.cn/" target="_blank">Tiangong University</a> · Tianjin, China
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>jzlei@tiangong.edu.cn</p>
+    <p>School of Mathematical Sciences</p>
+    <p>Tiangong University, Tianjin 300387</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+news: true
+selected_papers: true
+social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+## Welcome to the Lei Lab
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+We are a computational and mathematical biology research group at the [School of Mathematical Sciences](https://sxkxxy.tiangong.edu.cn/), [Tiangong University](https://www.tiangong.edu.cn/). Our mission is to understand the quantitative principles governing complex biological systems—from individual cells to cancer evolution—through the lens of mathematics, dynamical systems, and computation.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+**We develop mathematical models and computational frameworks** to decode how cells make decisions, how tissues maintain homeostasis, and how dysregulation leads to cancer. A central theme of our work is uncovering the interplay between genetic circuits and epigenetic landscapes in cell fate transitions.
+
+---
+
+### Research Highlights
+
+Our group works at the intersection of **mathematical oncology**, **stem cell biology**, and **systems biology**. Key areas include:
+
+- **Cancer evolution dynamics** — how heterogeneous tumour cell populations evolve, develop drug resistance, and relapse
+- **Stem cell proliferation & differentiation** — multi-scale stochastic and deterministic models of haematopoietic and tissue stem cells
+- **Epigenetic regulation** — mathematical frameworks for cell-type transitions driven by epigenetic modifications
+- **Optimal therapeutic strategies** — adaptive therapy design for castrate-resistant prostate cancer and chronic myeloid leukaemia
+
+Our models are grounded in real experimental data and aim to generate testable predictions that inform clinical decision-making.
+
+---
+
+### Principal Investigator
+
+**Prof. Jinzhi Lei (雷锦志)** is a Professor, doctoral supervisor, and Distinguished Professor of Tianjin (天津市特聘教授) at Tiangong University. He received his B.S., M.S., and Ph.D. from Beihang University (Applied Mathematics / General Mechanics, 1991–2001), followed by postdoctoral training at Tsinghua University (2001–2003). He was a research faculty member at Tsinghua University's Zhou Peiyuan Center for Applied Mathematics from 2003 to 2019 before joining Tiangong University in 2020. He has published over 90 peer-reviewed research articles, authored five monographs on systems biology, and attracted over 17,000 citations (Google Scholar). He serves on the editorial boards of *Mathematical Biosciences and Engineering* and *Mathematics in Applied Sciences and Engineering*, among others.
+
+→ [Full biography](/about/) &nbsp; | &nbsp; [Publications](/publications/) &nbsp; | &nbsp; [Google Scholar](https://scholar.google.com/citations?user=aR34e1gAAAAJ)
+
+---
+
+### Join Us
+
+We are always looking for motivated students (M.Sc. and Ph.D.) and postdoctoral researchers with backgrounds in applied mathematics, computational biology, bioinformatics, or related fields. If you are interested in joining the group, please [get in touch](mailto:jzlei@tiangong.edu.cn).
