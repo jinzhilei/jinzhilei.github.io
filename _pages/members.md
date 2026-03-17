@@ -13,22 +13,35 @@ nav_order: 3
   <div class="p-3">
     <div class="row">
       <div class="col-sm-auto col-sm-3">
-        <img class="img-fluid rounded" src="/assets/img/team/jinzhi_lei.jpg" alt="Jinzhi Lei" style="max-width:150px"/>
+        <img class="img-fluid rounded" src="/assets/img/prof_pic.jpg" alt="Jinzhi Lei" style="max-width:150px"/>
       </div>
       <div class="col">
         <h5 class="card-title">Jinzhi Lei (雷锦志)</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Professor · Doctoral Supervisor · Distinguished Professor of Tianjin</h6>
-        <p>
-          Professor Lei received his B.S., M.S., and Ph.D. from Beihang University (Applied Mathematics / General Mechanics, 1991–2001),
-          completed postdoctoral training at Tsinghua University (2001–2003), and was a research faculty member at
-          Tsinghua University's Zhou Peiyuan Center for Applied Mathematics from 2003 to 2019.
-          He joined Tiangong University in 2020. He has been a visiting assistant professor at UC Irvine (2004–2005)
-          and a visiting scholar at McGill University (2005).
+        <h6 class="card-subtitle mb-2 text-muted">Professor · Doctoral Supervisor · Distinguished Professor of Tianjin (天津市特聘教授)</h6>
+        <p class="text-muted" style="margin-bottom:0.4em; font-size:0.9em;">
+          School of Mathematical Sciences &amp; Center for Applied Mathematics, Tiangong University<br/>
+          Tianjin 300387, P.R. China &nbsp;|&nbsp;
+          <a href="mailto:jzlei@tiangong.edu.cn">jzlei@tiangong.edu.cn</a>
         </p>
         <p>
-          His research focuses on computational systems biology, mathematical oncology, and dynamical systems.
-          He has published over 90 peer-reviewed articles (17,000+ citations, Google Scholar)
-          and authored five monographs / textbooks on systems biology.
+          Prof. Jinzhi Lei received his B.Sc. (1995), M.Sc. (1998), and Ph.D. (2001) in Applied Mathematics and Analytical Mechanics from
+          Beijing University of Aeronautics and Astronautics (Beihang University). He completed postdoctoral training at Tsinghua University
+          (2001–2003) and subsequently served as Research Assistant and Associate Researcher at the Zhou Pei-Yuan Center for Applied Mathematics,
+          Tsinghua University (2003–2019). In January 2020 he joined Tiangong University as a full Professor and was appointed as
+          Distinguished Professor of Tianjin (天津市特聘教授).
+        </p>
+        <p>
+          His international experience includes appointments as Visiting Assistant Professor at the University of California, Irvine
+          (2004–2005), Exchange Scholar at McGill University (2005), and multiple visiting positions at UC Irvine, McGill University,
+          Nanyang Technological University, and KTH Royal Institute of Technology, Sweden.
+        </p>
+        <p>
+          His research bridges mathematics and biology, with core interests in <strong>differential equations and dynamical systems</strong>,
+          <strong>mathematical biology</strong> (gene regulatory network modeling, protein folding), and
+          <strong>cancer systems biology</strong> (cancer evolution dynamics, drug resistance, computational oncology).
+          He has published over 90 peer-reviewed articles (17,000+ citations on Google Scholar), authored two monographs on systems biology
+          (Springer, 2021; Shanghai Scientific Press, 2010), and secured continuous NSFC funding since 2004, including the current
+          key project NSFC 12331018 (2024–2028).
         </p>
         <p>
           <strong>Academic service:</strong> Deputy Director, Committee on Mathematical Life Sciences, CSIAM;
@@ -37,10 +50,12 @@ nav_order: 3
           Editorial Board Member, <em>Mathematics in Applied Sciences and Engineering</em>.
         </p>
         <p>
-          📧 <a href="mailto:jzlei@tiangong.edu.cn">jzlei@tiangong.edu.cn</a> &nbsp;|&nbsp;
+          <a href="mailto:jzlei@tiangong.edu.cn">📧 jzlei@tiangong.edu.cn</a> &nbsp;|&nbsp;
           <a href="https://scholar.google.com/citations?user=aR34e1gAAAAJ" target="_blank">Google Scholar</a> &nbsp;|&nbsp;
           <a href="https://orcid.org/0000-0002-2670-6760" target="_blank">ORCID</a> &nbsp;|&nbsp;
-          <a href="https://github.com/jinzhilei" target="_blank">GitHub</a>
+          <a href="http://www.researcherid.com/rid/B-3818-2010" target="_blank">ResearcherID</a> &nbsp;|&nbsp;
+          <a href="https://www.researchgate.net/profile/Jinzhi_Lei" target="_blank">ResearchGate</a> &nbsp;|&nbsp;
+          <a href="/cv/">Full CV</a>
         </p>
       </div>
     </div>
