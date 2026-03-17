@@ -1,81 +1,64 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Epigenetic Regulation and Cell-Fate Decisions
+description: Mathematical modelling of cell-type transitions, Waddington landscape dynamics, epigenetic inheritance noise, and the role of epigenetic instability in cancer drug resistance.
+img: assets/img/proj3.jpg
 importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Every cell in the human body carries the same genomic sequence, yet the hundreds of distinct cell types differ dramatically in morphology, function, and gene expression. This diversity is encoded in the **epigenome** — a dynamic layer of chromatin modifications (histone methylation, acetylation, DNA methylation) that modulates gene accessibility and expression without altering the underlying DNA sequence. Understanding how the epigenome governs cell identity, mediates cell-fate transitions, and — when dysregulated — drives cancer initiation and drug resistance is one of the central problems in modern biology.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Our group develops mathematical frameworks to describe epigenetic dynamics quantitatively, bridging the gap between molecular mechanisms (individual histone modification events, stochastic inheritance during cell division) and macroscopic observables (cell type distributions, tissue composition, drug sensitivity landscapes).
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+---
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Key Research Questions
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+- How do stochastic epigenetic modifications during cell division drive spontaneous cell-fate transitions — differentiation, de-differentiation, and transdifferentiation — without external signals?
+- What is the shape of the Waddington epigenetic landscape for specific cell-type systems, and how can it be computed from mechanistic models?
+- How does epigenetic instability in cancer cells promote the emergence of drug-tolerant persister (DTP) cells, and what treatment schedules best exploit this vulnerability?
+- Can we design targeted interventions (epigenetic drugs, transcription factor overexpression) that predictably redirect cell fate towards desired outcomes in regenerative medicine?
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+---
 
-{% raw %}
+## Modelling Framework
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+**Multi-scale hybrid models** form the backbone of this research direction. At the molecular scale, we track the stochastic dynamics of key histone modifications (H3K4me3 as an active mark, H3K27me3 as a repressive mark) at each gene locus, modelled as continuous-time Markov chains or stochastic differential equations. At the cell scale, gene expression levels are determined by these epigenetic states through sigmoidal activation functions, and cell identity is classified by the attractor in the gene regulatory network that the cell inhabits. At the population scale, we track the fractions of cells in each epigenetic state using delay integro-differential equations or PDE models.
 
-{% endraw %}
+A key biological insight embedded in these models is that **epigenetic states are stochastically inherited during cell division** — daughter cells receive a noisy copy of the parental chromatin state — and this noise is the fundamental driver of spontaneous cell-fate transitions. The rate and direction of transitions depend on the epigenetic landscape, which in turn depends on the concentrations of chromatin-modifying enzymes and transcription factors.
+
+---
+
+## Representative Results
+
+**Dynamics of Cell-Type Transition Mediated by Epigenetic Modifications** (Huang, Situ, Lei, *Journal of Theoretical Biology*, 2024): We constructed a three-scale model integrating (i) stochastic histone modification kinetics, (ii) gene regulatory network dynamics, and (iii) stem cell population renewal. The model demonstrates that stochastic epigenetic inheritance alone is sufficient to drive differentiation, de-differentiation, and transdifferentiation without external signals, providing a mechanistic foundation for the Waddington landscape concept. Predictions for the effects of histone methyltransferase inhibitors on reprogramming efficiency are consistent with experimental observations.
+
+**Epigenetic Instability and Acquired Drug Resistance** (Wang, Lei, Zou, Jin, *PLoS Computational Biology*, 2025): Combining multi-omics data from PC9 lung cancer cells with a multiscale mathematical model, we revealed how epigenetic instability — fluctuations in chromatin state across cells — creates a pre-existing subpopulation of drug-tolerant persister (DTP) cells before therapy even begins. An evolutionary game theory framework showed that intermittent treatment exploits these dynamics to prevent DTP expansion. The model identifies optimal intermittent treatment windows, providing actionable guidance for clinical scheduling of EGFR inhibitors.
+
+**Bivalent Domain Dynamics and Gene Expression Bistability** (Huang, Lei, *Journal of Theoretical Biology*, 2019): We modelled the positive feedback between H3K4me3 (active) and H3K27me3 (repressive) histone marks at bivalent promoters — a configuration common in stem cells — and showed that bistability in epigenetic state arises naturally from autocatalytic recruitment of chromatin-modifying complexes. This bistability is the molecular basis of cell-type memory and the barrier to spontaneous cell-fate change.
+
+**Stochastic Methylation and Enhancer Heterogeneity** (Ye, Lei, *Journal of Theoretical Biology*, 2019): A stochastic model of CpG methylation dynamics at enhancers demonstrated how random methylation gains and losses during cell division generate the observed heterogeneity in enhancer activity across cells in a clonal population. The model quantitatively predicts the dependence of methylation heterogeneity on cell division rate, consistent with single-cell bisulfite sequencing data.
+
+**Evolutionary Dynamics of Cancer and Epigenetic Regulation** (Lei, *Science China Mathematics*, 2020): A comprehensive review and modelling study connecting epigenetic regulation (cell-type transitions) to cancer evolution (clonal selection, treatment resistance), unifying the stem-cell and cancer-evolution frameworks into a coherent mathematical narrative.
+
+---
+
+## Implications for Cancer and Regenerative Medicine
+
+This research direction has direct translational implications in two areas:
+
+**Cancer drug resistance**: Epigenetic plasticity allows cancer cells to reversibly transition between drug-sensitive and drug-tolerant states, making *de novo* resistance not merely a genetic but an epigenetic phenomenon. Our models predict that treatment schedules must account for epigenetic dynamics — not just pharmacodynamics — to be optimally effective.
+
+**Regenerative medicine and iPSC technology**: Understanding the quantitative barriers to cell-fate transitions enables the rational design of reprogramming protocols. Our models predict which combinations of transcription factors and epigenetic drugs maximise the efficiency of iPSC generation or direct transdifferentiation, reducing the current reliance on empirical trial-and-error.
+
+---
+
+## Selected Publications
+
+- Huang R, Situ Q, Lei J\*. Dynamics of cell-type transition mediated by epigenetic modifications. *Journal of Theoretical Biology*, 2024, 577: 111664.
+- Wang S, Lei J, Zou X, Jin S\*. Integrating multiscale mathematical modeling and multidimensional data reveals the effects of epigenetic instability on acquired drug resistance in cancer. *PLoS Computational Biology*, 2025, 21(2): e1012815.
+- Lei J. Evolutionary dynamics of cancer: from epigenetic regulation to cell population dynamics. *Science China Mathematics*, 2020, 63(3): 411–424.
+- Ye Y, Lei J\*. Stochastic methylation: A random process mediating enhancer methylation heterogeneity. *Journal of Theoretical Biology*, 2019, 481: 95–103.
